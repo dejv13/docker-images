@@ -2,5 +2,5 @@ FROM haproxy:1.7
 COPY haproxy.cfg /usr/local/etc/haproxy/haproxy.cfg
 
 
-EXPOSE 80 8080
+EXPOSE 9090 8080
 
